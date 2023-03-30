@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: fuse-console-og
+  namespace: fuse-console
+spec:
+  targetNamespaces:
+    - fuse-console
