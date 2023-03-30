@@ -4,7 +4,7 @@ metadata:
   name: amq-streams-operator
   namespace: amq-streams
 spec:
-  channel: amqstreams.v2.3.0-3
+  channel: stable
   installPlanApproval: Automatic
   name: amq-streams-operator
   source: redhat-operators
